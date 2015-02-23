@@ -1,0 +1,169 @@
+﻿Build started 16.1.2015 10:54:39.
+     1>Project "C:\Users\mohamma1\Desktop\BScOR\source\development\postman_tour\postman_tour.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\mohamma1\boost_1_57_0 /IC:\Users\mohamma1\LEMON\include /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt postman_tour.cpp
+         postman_tour.cpp
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(104): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(105): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(175): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(196): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(585): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(604): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(635): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(654): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(874): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(875): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(876): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1025): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1046): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1397): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1416): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1447): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1466): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1722): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1725): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1726): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1897): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1925): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(1953): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(2302): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(2321): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(2352): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/list_graph.h(2371): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>postman_tour.cpp(25): warning C4005: 'NDEBUG' : macro redefinition
+                 command-line arguments :  see previous definition of 'NDEBUG'
+     1>postman_tour.cpp(105): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>postman_tour.cpp(114): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>postman_tour.cpp(127): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>postman_tour.cpp(129): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/bits/vector_map.h(190): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/bits/vector_map.h(189) : while compiling class template member function 'void lemon::VectorMap<_Graph,_Item,int>::add(const std::vector<lemon::FullGraphBase::Edge,std::allocator<_Ty>> &)'
+                 with
+                 [
+                     _Graph=lemon::GraphExtender<lemon::FullGraphBase>
+         ,            _Item=lemon::FullGraphBase::Edge
+         ,            _Ty=lemon::FullGraphBase::Edge
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/bits/default_map.h(155) : see reference to class template instantiation 'lemon::VectorMap<_Graph,_Item,int>' being compiled
+                 with
+                 [
+                     _Graph=lemon::GraphExtender<lemon::FullGraphBase>
+         ,            _Item=lemon::FullGraphBase::Edge
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/bits/map_extender.h(38) : see reference to class template instantiation 'lemon::DefaultMap<lemon::GraphExtender<lemon::FullGraphBase>,lemon::FullGraphBase::Edge,_Value>' being compiled
+                 with
+                 [
+                     _Value=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/bits/graph_extender.h(651) : see reference to class template instantiation 'lemon::MapExtender<lemon::DefaultMap<lemon::GraphExtender<lemon::FullGraphBase>,lemon::FullGraphBase::Edge,_Value>>' being compiled
+                 with
+                 [
+                     _Value=int
+                 ]
+                 postman_tour.cpp(106) : see reference to class template instantiation 'lemon::GraphExtender<lemon::FullGraphBase>::EdgeMap<int>' being compiled
+     1>C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(214): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(213) : while compiling class template member function 'void lemon::BinHeap<int,lemon::GraphExtender<lemon::FullGraphBase>::EdgeMap<int>,std::less<_Kty>>::pop(void)'
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(3280) : see reference to function template instantiation 'void lemon::BinHeap<int,lemon::GraphExtender<lemon::FullGraphBase>::EdgeMap<int>,std::less<_Kty>>::pop(void)' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2364) : see reference to class template instantiation 'lemon::BinHeap<int,lemon::GraphExtender<lemon::FullGraphBase>::EdgeMap<int>,std::less<_Kty>>' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+     1>C:\Users\mohamma1\LEMON\include\lemon/matching.h(2943): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2932) : while compiling class template member function 'void lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::extractBlossom(int,const lemon::FullGraphBase::Node &,const lemon::FullGraphBase::Arc &)'
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2986) : see reference to function template instantiation 'void lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::extractBlossom(int,const lemon::FullGraphBase::Node &,const lemon::FullGraphBase::Arc &)' being compiled
+     1>C:\Users\mohamma1\LEMON\include\lemon/matching.h(2963): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(990): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(988) : while compiling class template member function 'int lemon::HeapUnionFind<int,lemon::GraphExtender<lemon::FullGraphBase>::NodeMap<int>,std::less<_Kty>>::newClass(void)'
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(1321) : see reference to function template instantiation 'int lemon::HeapUnionFind<int,lemon::GraphExtender<lemon::FullGraphBase>::NodeMap<int>,std::less<_Kty>>::newClass(void)' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2344) : see reference to class template instantiation 'lemon::HeapUnionFind<int,lemon::GraphExtender<lemon::FullGraphBase>::NodeMap<int>,std::less<_Kty>>' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+     1>C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(1019): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(1017) : while compiling class template member function 'int lemon::HeapUnionFind<int,lemon::GraphExtender<lemon::FullGraphBase>::NodeMap<int>,std::less<_Kty>>::newNode(void)'
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(1307) : see reference to function template instantiation 'int lemon::HeapUnionFind<int,lemon::GraphExtender<lemon::FullGraphBase>::NodeMap<int>,std::less<_Kty>>::newNode(void)' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+     1>C:\Users\mohamma1\LEMON\include\lemon/maps.h(280): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/maps.h(279) : while compiling class template member function 'int lemon::RangeMap<lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::BlossomData>::size(void)'
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2292) : see reference to function template instantiation 'int lemon::RangeMap<lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::BlossomData>::size(void)' being compiled
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2345) : see reference to class template instantiation 'lemon::RangeMap<lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::BlossomData>' being compiled
+     1>C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(672): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(665) : while compiling class template member function 'int lemon::ExtendFindEnum<lemon::MaxWeightedMatching<GR,WM>::IntIntMap>::newClass(void)'
+                 C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(699) : see reference to function template instantiation 'int lemon::ExtendFindEnum<lemon::MaxWeightedMatching<GR,WM>::IntIntMap>::newClass(void)' being compiled
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2356) : see reference to class template instantiation 'lemon::ExtendFindEnum<lemon::MaxWeightedMatching<GR,WM>::IntIntMap>' being compiled
+     1>C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(683): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(676) : while compiling class template member function 'int lemon::ExtendFindEnum<lemon::MaxWeightedMatching<GR,WM>::IntIntMap>::newItem(void)'
+                 C:\Users\mohamma1\LEMON\include\lemon/unionfind.h(707) : see reference to function template instantiation 'int lemon::ExtendFindEnum<lemon::MaxWeightedMatching<GR,WM>::IntIntMap>::newItem(void)' being compiled
+     1>C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(179): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(178) : while compiling class template member function 'void lemon::BinHeap<int,lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::IntIntMap,std::less<_Kty>>::push(const std::pair<int,int> &)'
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(191) : see reference to function template instantiation 'void lemon::BinHeap<int,lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::IntIntMap,std::less<_Kty>>::push(const std::pair<int,int> &)' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2360) : see reference to class template instantiation 'lemon::BinHeap<int,lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::IntIntMap,std::less<_Kty>>' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+     1>C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(230): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(228) : while compiling class template member function 'void lemon::BinHeap<int,lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::IntIntMap,std::less<_Kty>>::erase(const int &)'
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2830) : see reference to function template instantiation 'void lemon::BinHeap<int,lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::IntIntMap,std::less<_Kty>>::erase(const int &)' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+     1>C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(290): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Users\mohamma1\LEMON\include\lemon/bin_heap.h(288) : while compiling class template member function 'void lemon::BinHeap<int,lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::IntIntMap,std::less<_Kty>>::increase(const int &,const int &)'
+                 with
+                 [
+                     _Kty=int
+                 ]
+                 C:\Users\mohamma1\LEMON\include\lemon/matching.h(2534) : see reference to function template instantiation 'void lemon::BinHeap<int,lemon::MaxWeightedPerfectMatching<lemon::FullGraph,Distances>::IntIntMap,std::less<_Kty>>::increase(const int &,const int &)' being compiled
+                 with
+                 [
+                     _Kty=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mohamma1\Desktop\BScOR\source\development\postman_tour\x64\Release\postman_tour.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\mohamma1\LEMON\lib lemon.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mohamma1\Desktop\BScOR\source\development\postman_tour\x64\Release\postman_tour.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mohamma1\Desktop\BScOR\source\development\postman_tour\x64\Release\postman_tour.lib" /MACHINE:X64 x64\Release\boost_graph_helper.obj
+         x64\Release\postman_tour.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         postman_tour.vcxproj -> C:\Users\mohamma1\Desktop\BScOR\source\development\postman_tour\x64\Release\postman_tour.exe
+     1>Done Building Project "C:\Users\mohamma1\Desktop\BScOR\source\development\postman_tour\postman_tour.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.06
