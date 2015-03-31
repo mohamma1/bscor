@@ -1,4 +1,4 @@
-Copyright 2015 Abdulmelik Mohammed
+Copyright 2015 Abdulmelik Mohammed (Aalto University)
 
 This file is part of bscor.
 
