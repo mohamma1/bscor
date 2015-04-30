@@ -5,7 +5,7 @@
 The program *bscor* is a pipeline of executables for routing triangulated polyhedal meshes and relaxing a physical cylinderical model of the mesh so that the mesh can be assembled from DNA at the nanoscale. The source code for the physical relaxation is found in the repository https://github.com/gardell/scaffold-routing-rectification.
 	
 ## INSTALLATION
-Copy the parent directory to your desired location. To access the binaries and the batch file from other locations, you can pad your BSCoR location to the path environment variable.
+Download a release package from the releases page in the Git repository. Copy the parent directory to your desired location. To access the binaries and the batch file from other locations, you can pad your BSCoR location to the path environment variable.
 	
 ## USAGE
 `bscor.bat model_ply_file [scale]`
