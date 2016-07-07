@@ -1,0 +1,33 @@
+﻿Build started 27.10.2015 11:57:44.
+     1>Project "C:\Users\mohamma1\Desktop\BScOR\source\development\make_embedding_eulerian\make_embedding_eulerian.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\mohamma1\boost_1_57_0 /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt boost_graph_helper.cpp make_embedding_eulerian.cpp
+         boost_graph_helper.cpp
+     1>boost_graph_helper.cpp(139): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>boost_graph_helper.cpp(144): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>boost_graph_helper.cpp(211): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>boost_graph_helper.cpp(216): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>boost_graph_helper.cpp(278): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+         make_embedding_eulerian.cpp
+     1>make_embedding_eulerian.cpp(23): warning C4005: 'NDEBUG' : macro redefinition
+                 command-line arguments :  see previous definition of 'NDEBUG'
+     1>make_embedding_eulerian.cpp(98): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>make_embedding_eulerian.cpp(99): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>make_embedding_eulerian.cpp(106): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>make_embedding_eulerian.cpp(114): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mohamma1\Desktop\BScOR\source\development\make_embedding_eulerian\x64\Release\make_embedding_eulerian.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mohamma1\Desktop\BScOR\source\development\make_embedding_eulerian\x64\Release\make_embedding_eulerian.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mohamma1\Desktop\BScOR\source\development\make_embedding_eulerian\x64\Release\make_embedding_eulerian.lib" /MACHINE:X64 x64\Release\boost_graph_helper.obj
+         x64\Release\make_embedding_eulerian.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         make_embedding_eulerian.vcxproj -> C:\Users\mohamma1\Desktop\BScOR\source\development\make_embedding_eulerian\x64\Release\make_embedding_eulerian.exe
+     1>Done Building Project "C:\Users\mohamma1\Desktop\BScOR\source\development\make_embedding_eulerian\make_embedding_eulerian.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.55
