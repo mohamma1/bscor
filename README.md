@@ -39,3 +39,7 @@ The following files must be present in the installation:
 * PhysX3_x64.dll
 * PhysX3Common_x64.dll
 * octahedron.ply
+
+## NOTES ON BUILDING FROM SOURCE CODE
+
+To build the pipeline from source, you will need the boost graph library (tested on BGL 1.57.0) and LEMON C++ combinatorial optimization library (tested on LEMON 1.3.1.) You will then need to update the library locations in additional includes settings of the project based on your library installation directories. 
