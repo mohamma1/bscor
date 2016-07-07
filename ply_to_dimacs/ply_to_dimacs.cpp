@@ -62,7 +62,7 @@ int main (int argc, char *argv[])
 		assert( num_components == 1);
 		if( num_components != 1 )
 		{
-			std::cerr<< "WARNING! The graph in the PLY is not connected!"<<std::endl;
+			std::cerr<< "WARNING: The graph in the PLY is not connected!"<<std::endl;
 		}else
 		{
 			std::cout<<"INFO: The graph in the PLY is connected."<<std::endl;
@@ -71,7 +71,7 @@ int main (int argc, char *argv[])
 			std::cout << "INFO: The graph in the PLY is planar." << std::endl;
 		else
 		{
-			std::cerr<< "WARNING! The graph in the PLY is not planar!" << std::endl;
+			std::cerr<< "WARNING: The graph in the PLY is not planar!" << std::endl;
 		}
 		//std::cout<<"Graph:\n"<<to_string_graph(G, "Vertex ", "->\t\t\t", "\t" )<<std::endl;
 		write_dimacs(outputdimacs, G);
@@ -104,7 +104,7 @@ bool read_ply (std::string input_filename, Graph & G)
 		getline(myfile, line);
 		if( line.substr(0,3).compare("ply")) 
 		{
-			std::cerr<<"ERROR! the given file is not a PLY file"<<std::endl;
+			std::cerr<<"ERROR: the given file is not a PLY file"<<std::endl;
 			return false; //Making sure it is a ply file
 		}
 		
@@ -121,7 +121,7 @@ bool read_ply (std::string input_filename, Graph & G)
 				ss>>line_header>>type;									
 				if(type.compare("ascii") != 0)
 				{
-					std::cerr<<"ERROR! the PLY file is not ascii format"<<std::endl;
+					std::cerr<<"ERROR: the PLY file is not ascii format"<<std::endl;
 					return false;
 				}
 			}
